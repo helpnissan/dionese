@@ -19,14 +19,14 @@
 <nav class="navbar">
   <div class="max-width">
     <div class="logo"><a href="#"><span>Dionese I. Antioquia</span></a></div>
-    <ul class="menu">
-      <li><a href="Index.html" class="menu-btn"><strong>Home</strong></a></li>
-      <li><a href="About.html" class="menu-btn"><strong>About</strong></a></li>
-      <li><a href="Projects.html" class="menu-btn"><strong>Projects</strong></a></li>
-      <li><a href="Skills.html" class="menu-btn active"><strong>Skills</strong></a></li>
-      <li><a href="Contact.html" class="menu-btn"><strong>Contact</strong></a></li>
-    </ul>
     <input type="checkbox" id="menu-toggle">
+    <ul class="menu">
+      <li><a href="index.html" class="menu-btn"><strong>Home</strong></a></li>
+      <li><a href="about.html" class="menu-btn"><strong>About</strong></a></li>
+      <li><a href="projects.html" class="menu-btn"><strong>Projects</strong></a></li>
+      <li><a href="skills.html" class="menu-btn active"><strong>Skills</strong></a></li>
+      <li><a href="contact.html" class="menu-btn"><strong>Contact</strong></a></li>
+    </ul>
     <label for="menu-toggle" class="menu-btn">
       <i class="fas fa-bars"></i>
     </label>
@@ -68,16 +68,7 @@
   </span>
 </footer>
 
-<script>
-  // Menu toggle for mobile
-  const menuBtn = document.querySelector('.menu-btn');
-  const menu = document.querySelector('.menu');
 
-  menuBtn.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    menuBtn.querySelector('i').classList.toggle('active');
-  });
-</script>
 
 </body>
 
