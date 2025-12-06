@@ -274,7 +274,7 @@ section .title::after {
 
 /*  About  */
 .about {
-  background: url("https://i.pinimg.com/736x/51/88/2f/51882f82cca67fa19c32c1153a055cc9.jpg") no-repeat center;
+  background: url("../images/bg2.jpg") no-repeat center;
   background-size: cover;
 }
 .about .title::after {
