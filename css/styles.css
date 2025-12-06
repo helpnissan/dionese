@@ -178,6 +178,18 @@ section .title::after {
   display: none;
 }
 
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu-btn i:before {
+  content: "\f00d";
+}
+
+#menu-toggle:checked ~ .menu {
+  left: 0;
+}
+
 .scroll-up-btn {
   position: fixed;
   height: 45px;
